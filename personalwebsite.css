@@ -31,10 +31,11 @@ nav a{
 .wrapper {
 	margin:0px;
 	background-color: #F4FAFF;
-	height: 38rem;
+	height: 48rem;
 	width:100%;
 	z-index: -1;
 	float:left;
+	display: table;
 }
 
 .wrapper2 {
@@ -46,25 +47,34 @@ nav a{
 	float:left;
 }
 
+.row {
+	vertical-align: middle;
+}
+
+
 .quotewrapper {
-	float:left;
-	margin-top:3rem;
-	margin-right:13rem;
-	width: 30%;
+	width:100%;
+}
+.imagewrapper {
+
+	width: 100%;
+	text-align: center;
 
 }
 
 .quotewrapper h1 {
-	font-size: 4rem;
+	font-size: 6.5rem;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
+	padding-top: 5rem;
+	font-weight:bold;
 }
 
 #jayz {
-	width: 75%;
+	width: 35%;
 	height: auto;
-	margin-top: 5rem;
-	margin-left: 8rem;
+	/*margin-top: 4rem;
+	margin-left: 18rem;*/
 	border-radius: 150px
 }
 
@@ -82,12 +92,62 @@ h1 a {
 .mywork h1{
 	text-align: left;
 	font-family: 'Shadows Into Light', cursive;
-	font-size: 3rem;
-	line-height: 3rem;
+	font-size: 5rem;
+	font-weight:bold;
+	line-height: 5rem;
 	margin-bottom: 0;
 	margin-left: 5rem;
 }
 
 .mywork hr{
 	margin-top: 0px;
+	margin-right:5rem;
+	margin-left:5rem;
+	 background-color: black;
+    border: 0 none;
+    color: black;
+    height: 2px;
+
 }
+
+.proj-wrapper {
+	margin:0px;
+	background-color: #F4FAFF;
+	height: 48rem;
+	width:100%;
+	z-index: -1;
+	float:left;
+	display: table;
+}
+
+.proj-wrapper hr{
+
+}
+
+.imagecontainer {
+	width:100%;
+	text-align: center;
+}
+
+.imagecontainer {
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.projectimage {
+	width:100%;
+	height:auto;
+	max-width:500px;
+	margin:2rem auto;
+}
+
+.projectcontainer {
+	text-align: center;
+}
+
+.projectdescription {
+ text-align: left;
+ margin: 1% 9%;
+}
+
+
+
