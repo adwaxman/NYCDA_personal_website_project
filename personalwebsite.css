@@ -1,0 +1,93 @@
+body{
+	margin: 0px;
+}
+
+nav div{	
+	padding: 0px;
+	display: inline;
+	float:left;
+	width:25%;
+	text-align: center;
+	line-height:130px;
+	background-color: #454545;
+	transition: background-color, color, 1s;
+	color: #F2F2F2;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+nav div:hover{
+	color: #454545;
+	background-color: #E1E1E1;
+
+}
+
+nav a{
+	text-decoration: none;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 1.75em;
+}
+
+.wrapper {
+	margin:0px;
+	background-color: #F4FAFF;
+	height: 38rem;
+	width:100%;
+	z-index: -1;
+	float:left;
+}
+
+.wrapper2 {
+	margin:0px;
+	background-color: #ABADAF;
+	height: 3rem;
+	width:100%;
+	z-index: -1;
+	float:left;
+}
+
+.quotewrapper {
+	float:left;
+	margin-top:3rem;
+	margin-right:13rem;
+	width: 30%;
+
+}
+
+.quotewrapper h1 {
+	font-size: 4rem;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+}
+
+#jayz {
+	width: 75%;
+	height: auto;
+	margin-top: 5rem;
+	margin-left: 8rem;
+	border-radius: 150px
+}
+
+h1 a {
+	text-decoration: none;
+	color:#A6A6A6;
+}
+
+.wrapper2 div{
+	text-align: center;
+	padding-top: 1rem;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.mywork h1{
+	text-align: left;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 3rem;
+	line-height: 3rem;
+	margin-bottom: 0;
+	margin-left: 5rem;
+}
+
+.mywork hr{
+	margin-top: 0px;
+}
