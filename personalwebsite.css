@@ -49,12 +49,20 @@ nav a{
 
 .row {
 	vertical-align: middle;
+	display: table-cell;
 }
 
 
 .quotewrapper {
 	width:100%;
 }
+
+.aboutquotewrapper {
+	width:50%;
+	margin: 0 auto 6rem auto;
+}
+
+
 .imagewrapper {
 
 	width: 100%;
@@ -70,11 +78,34 @@ nav a{
 	font-weight:bold;
 }
 
+.aboutquotewrapper h2 {
+	font-size: 4rem;
+	text-align: center;
+	font-family: 'Shadows Into Light', cursive;
+	padding-top: 5rem;
+	font-weight:bold;
+}
+
+h2 a {
+	color:#A6A6A6;
+}
+
+.aboutimagewrapper {
+
+	width: 100%;
+	text-align: center;
+	margin-bottom: 5rem;
+}
+
 #jayz {
-	width: 35%;
+	width: 50%;
 	height: auto;
-	/*margin-top: 4rem;
-	margin-left: 18rem;*/
+	border-radius: 150px
+}
+
+#jayz2 {
+	width: 33%;
+	height: auto;
 	border-radius: 150px
 }
 
@@ -129,6 +160,11 @@ h1 a {
 	text-align: center;
 }
 
+.imagecontainer a{
+	text-decoration: none;
+	color: black;
+}
+
 .imagecontainer {
 	font-family: 'Ubuntu Condensed', sans-serif;
 }
@@ -149,5 +185,28 @@ h1 a {
  margin: 1% 9%;
 }
 
+.contact {
+	margin-left: 0, auto;
+	font-family: 'Ubuntu Condensed', sans-serif;
+}
 
+.contact p{
+	margin: 2rem 5rem;
+	font-size: 2rem;
+}
 
+@media (max-width: 592px) {
+	nav div {
+		width:50%;
+		line-height: 75px;
+	}
+	.wrapper {
+		padding-top: 3rem;
+	}
+}
+
+@media (max-width: 991px) {
+	.wrapper {
+		padding-top: 3rem;
+	}
+}
