@@ -80,7 +80,7 @@ nav a{
 }
 
 .aboutquotewrapper h2 {
-	font-size: 4rem;
+	font-size: 3rem;
 	text-align: center;
 	font-family: 'Shadows Into Light', cursive;
 	padding-top: 5rem;
@@ -159,6 +159,11 @@ h1 a {
 .imagecontainer {
 	width:100%;
 	text-align: center;
+
+}
+
+.imagecontainer img {
+	border: solid 1px black;
 }
 
 .imagecontainer a{
@@ -211,3 +216,10 @@ h1 a {
 		padding-top: 3rem;
 	}
 }
+
+.fa {
+	color: black;
+}
+ .about-text {
+	 font-family: 'Shadows Into Light', cursive;
+ }
