@@ -223,3 +223,8 @@ h1 a {
  .about-text {
 	 font-family: 'Shadows Into Light', cursive;
  }
+
+.projects-page a {
+	color: darkblue;
+	font-weight: bold;
+}
